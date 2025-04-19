@@ -7,7 +7,7 @@ print("Enter your app information from my.telegram.org/apps below.")
 
 async def main():
     async with Client(
-        ":memory:", api_id=int(input("API ID:")), api_hash=input("API HASH:")
+        ":memory:", api_id=int(input("28962746:")), api_hash=input("727457f88d661b08e636188a949cd9f3:")
     ) as app:
         print(await app.export_session_string())
 
